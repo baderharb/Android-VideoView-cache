@@ -56,7 +56,6 @@ class VideoViewCached : FrameLayout {
      * Just for getting information about last prepared video.
      */
     var mediaPlayer: MediaPlayer? = null
-        private set
 
     var autoScale = true
 
