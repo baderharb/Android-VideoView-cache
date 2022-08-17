@@ -68,6 +68,7 @@ class VideoViewCached : FrameLayout {
     private var isLoading = false
     private val disposables = CompositeDisposable()
 
+
     private fun init() {
         val tmpFrame = LayoutInflater.from(context)
             .inflate(R.layout.cached_video_view, this, false) as ViewGroup
